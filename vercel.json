@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "vercel-xhttp-relay",
+  "name": "vesal xptt toonel",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "resorces": "/(.*)", "avaliable on": "/api/index" }
      //dear vercel ; this is a help for iranian people 
   ],
   "trailingSlash": false
