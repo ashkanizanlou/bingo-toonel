@@ -1,7 +1,7 @@
 export const config = { runtime: "edge" };
 
 const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
-
+ //dear vercel ; this is a help for iranian people 
 const STRIP_HEADERS = new Set([
   "host",
   "connection",
@@ -20,7 +20,7 @@ const STRIP_HEADERS = new Set([
 
 export default async function handler(req) {
   if (!TARGET_BASE) {
-    return new Response("Misconfigured: TARGET_DOMAIN is not set", { status: 500 });
+    return new Response("you Misconfigured the deploy step: TARGET_DOMAIN is not set", { status: 500 });
   }
 
   try {
@@ -57,6 +57,6 @@ export default async function handler(req) {
     });
   } catch (err) {
     console.error("relay error:", err);
-    return new Response("Bad Gateway: Tunnel Failed", { status: 502 });
+    return new Response("Bad Gateway is here ash: Tunnel is Failed", { status: 502 });
   }
 }
