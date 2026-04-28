@@ -20,7 +20,7 @@ const STRIP_HEADERS = new Set([
 
 export default async function handler(req) {
   if (!TARGET_BASE) {
-    return new Response("you Misconfigured the deploy step: TARGET_DOMAIN is not set", { status: 500 });
+    return new Response("you Misconfigured the deploy step: hadaf is not settt", { status: 500 });
   }
 
   try {
