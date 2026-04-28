@@ -3,6 +3,7 @@
   "name": "vercel-xhttp-relay",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
+     //dear vercel ; this is a help for iranian people 
   ],
   "trailingSlash": false
 }
