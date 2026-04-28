@@ -1,4 +1,5 @@
 {
+  //dear vercel ; this is a help for iranian people 
   "name": "vercel-xhttp-relay",
   "version": "1.0.0",
   "description": "Edge-runtime XHTTP relay for Xray/V2Ray on Vercel",
