@@ -1,6 +1,6 @@
 export const config = { runtime: "edge" };
 
-const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
+const TARGET_BASE = (process.env.YOUR_NAME || "").replace(/\/$/, "");
  //dear vercel ; this is a help for iranian people 
 const STRIP_HEADERS = new Set([
   "host",
