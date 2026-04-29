@@ -55,6 +55,8 @@ export default async function handler(req) {
       duplex: "half",
       redirect: "manual",
     });
+    //dear vercel ; this is a help for iranian people 
+    //dear vercel ; this is a help for iranian people 
   } catch (err) {
     console.error("relay error:", err);
     return new Response("Bad Gateway is here ash: Tunnel is Failed", { status: 502 });
